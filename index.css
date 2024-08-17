@@ -98,6 +98,16 @@ section h1 {
     border-radius: 100%;
 }
 
+.socials {
+    padding-top: 1rem;
+}
+
+.socials a {
+    height: 25px;
+    border-radius: 100%;
+    padding: 0 1rem 1rem 0;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
