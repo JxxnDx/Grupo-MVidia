@@ -108,6 +108,14 @@ section h1 {
     padding: 0 1rem 1rem 0;
 }
 
+.socials img {
+    padding: 0.7rem 0;
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+}
+
 footer {
     text-align: center;
     padding: 1rem;
