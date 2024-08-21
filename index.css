@@ -56,7 +56,7 @@ header ul li a:hover {
     margin: 0 auto;
     text-align: center;
     width: 60%;
-    color: rgb(95, 2, 84);
+    color: rgb(156, 3, 138);
 }
 
 #bienvenida p {
@@ -84,7 +84,7 @@ section h1 {
     margin-bottom: 3rem;
     background-color: rgb(0, 0, 0, 0.4);
     border-radius: 1rem;
-    box-shadow: -0.3rem 0.3rem 2rem rgb(95, 2, 84);
+    box-shadow: -0.3rem 0.3rem 2rem rgb(156, 3, 138);
 }
 
 .contenido {
@@ -112,6 +112,7 @@ section h1 {
 
 .socials img {
     padding: 0.7rem 0;
+    transition: transform 0.3s ease;
 }
 
 .socials img:hover {
@@ -123,10 +124,28 @@ section h1 {
     margin: 0 auto;
     text-align: center;
     font-size: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 #practicas p {
     text-align: justify;
+    padding-bottom: 1rem;
+}
+
+#practicas a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    background-color: rgba(65, 64, 64, 0.5);
+    
+}
+
+#practicas a:hover{         
+    background-color: rgb(0, 0, 0, 0.5);
+    color:rgb(156, 3, 138);
 }
 
 footer {
