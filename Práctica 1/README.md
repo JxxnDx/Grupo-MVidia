@@ -36,11 +36,19 @@ De igual manera que se realizarón las compuertas and16 y not16, se empleo el mi
 Para el procesamiento de barios bits en este caso en un multiplexor fue necesario asignarle cada bit a cada compuerta mux teniendo en claro que estas tiene dos entradas al igual que las anteriores dos compuertas de 16 bits realizadas.
 
 ## Compuerta OR8WAY
-## Compuerta MUX4WAY16
-## Compuerta MUX8WAY16
-## Compuerta DMUX4WAY
-## Compuerta DMUX8WAY
+Para la realización de esta compuerta se tiene en cuenta que son varias compuertas or una tras otra, para así lograr tener 8 entradas de un bits similar a las recientes compuertas realizadas, pero con una diferencia en la cual se une la salida de una con la entrada de otra para lograr obtener solo un bit de salida. Por lo que fue necesario siete compuertas or.
 
+## Compuerta MUX4WAY16
+Esta compuerta es una combinacion de otras compuertas mux, en la cual se espera 4 entradas de 16 bits y luego obtener una salida de 1 bit, para esto fue necesario 3 compuertas mux y una compuerta xor la cual es la encargada de variar el selector de la ultima compuerta mux.
+
+## Compuerta MUX8WAY16
+Para esta compuerta al similar a la anterior, se espera la salida de 1 bit pero con ocho entradas de 16 bits, por lo cual fue necesario utilizar dos mux4way16 que se realizó anteriormente y una compuerta mux16 ya que maneja también 16 bits, así evitando una gran cantidad de compuertas.
+
+## Compuerta DMUX4WAY
+Para la realización de este demultiplexor fue necesario utilizar ocho compuertas and y dos not, pero ya no para obtener 4 entradas sino 4 salidas, ya que una caracteristica de estas compuertas es que reciben una entrada y dependiendo del selector se elige entre una de sus salidas.
+
+## Compuerta DMUX8WAY
+Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, debido a que utilizar dos de esas compuertas podemos obtener las 8 salidas requeridas, además se utilizo una compuerta dmux la cual se encargara del input principal.
 
 
 
