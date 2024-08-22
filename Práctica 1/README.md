@@ -5,6 +5,19 @@ Está práctica es realizda en la carpeta del proyecto 1 de nand2tetris. El punt
 
 ## Compuerta NOT
 
+## Compuerta NOT
+## Compuerta AND
+## Compuerta OR
+## Compuerta XOR
+## Compuerta MUX
+## Compuerta DMUX
+## Compuerta NOT16
+## Compuerta AND16
+## Compuerta OR16
+## Compuerta NOT16
+## Compuerta NOT
+
+
 
 
 
