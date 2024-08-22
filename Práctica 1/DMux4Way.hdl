@@ -14,14 +14,14 @@ CHIP DMux4Way {
     OUT a, b, c, d;
 
     PARTS:
-    Not(in=sel[1], out=s2n);
-    Not(in=sel[0], out=s1n);
-    And(a=s2n, b=s1n, out=sal1);
-    And(a=sal1, b=in, out=a);
-    And(a=s2n, b=sel[0], out=sal2);
-    And(a=sal2, b=in, out=b);
-    And(a=sel[1], b=s1n, out=sal3);
-    And(a=sal3, b=in, out=c);
-    And(a=sel[1], b=sel[0], out=sal4);
-    And(a=sal4, b=in, out=d);
+    Not(in=sel[1], out=salidaN2);
+    Not(in=sel[0], out=salidaN1);
+    And(a=salidaN2, b=salidaN1, out=salida1);
+    And(a=salida1, b=in, out=a);
+    And(a=salidaN2, b=sel[0], out=salida2);
+    And(a=salida2, b=in, out=b);
+    And(a=sel[1], b=salidaN1, out=salida3);
+    And(a=salida3, b=in, out=c);
+    And(a=sel[1], b=sel[0], out=salida4);
+    And(a=salida4, b=in, out=d);
 }
