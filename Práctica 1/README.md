@@ -6,6 +6,7 @@ Está práctica es realizada en la carpeta del proyecto 1 de nand2tetris donde s
 ## Compuerta NOT
 Para la realización de esta compuerta basto con mantener una entrada de la nand en "true" (1) con lo cual nos permite obtener el contrario de la segunda entrada debido al funcionamiento de la compuerta nand.
 
+
 ## Compuerta AND
 Para la realización de esta compuerta fue necesario negar la nand, debido a que esta tiene la lógica inversa de la and, para esto se utilizó la not anteriormente creada.
 
@@ -26,8 +27,14 @@ Para la realización de esta compuerta también conocida como demultiplexor, la 
 Esta compuerta es similar a la not convencional, lo que difiere es que esta procesa más bits, entendiendose como más entradas, por lo cual no se espera solo un 1 o un 0 sino una cadena de estos, en la que trata cada bit con una compuerta not por separado.
 
 ## Compuerta AND16
+Para esta compuerta al igual que se hizo en not16, fue necesario varias and las cuales se encargan de "procesar" cada bit.
+
 ## Compuerta OR16
+De igual manera que se realizarón las compuertas and16 y not16, se empleo el mismo modelo pero en este caso con las compuertas or anteriormente creada.
+
 ## Compuerta MUX16
+Para el procesamiento de barios bits en este caso en un multiplexor fue necesario asignarle cada bit a cada compuerta mux teniendo en claro que estas tiene dos entradas al igual que las anteriores dos compuertas de 16 bits realizadas.
+
 ## Compuerta OR8WAY
 ## Compuerta MUX4WAY16
 ## Compuerta MUX8WAY16
