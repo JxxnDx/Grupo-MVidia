@@ -5,14 +5,16 @@ Está práctica es realizada en la carpeta del proyecto 1 de nand2tetris donde s
 
 ## Compuerta NOT
 Para la realización de esta compuerta basto con mantener una entrada de la nand en "true" (1) con lo cual nos permite obtener el contrario de la segunda entrada debido al funcionamiento de la compuerta nand.
-
+![1](https://github.com/user-attachments/assets/4a8c0106-7183-44f8-abcf-3d87031d1757)
 
 ## Compuerta AND
 Para la realización de esta compuerta fue necesario negar la nand, debido a que esta tiene la lógica inversa de la and, para esto se utilizó la not anteriormente creada.
+![2](https://github.com/user-attachments/assets/138fd9bc-acb6-4ee4-957c-d77e518fdb70)
 
 ## Compuerta OR
 Para la realización de esta compuerta se utilizarón tres compuertas nand, donde dos de ellas tienen cada una una entrada en "true" lo que nos permite obtener de cierta manera cero como salida por si los dos input que se manejan 
 en compuertas diferente son "1" y así obtener un cero en las dos entradas de la tercera compuerta nand y esta obtener la salida correspondiente. Por lo cual se obtiene la compuerta or.
+![3](https://github.com/user-attachments/assets/4f63e51c-8944-4c86-b230-5e9d87e5fc8d)
 
 ## Compuerta XOR
 Para la realización de esta compuerta que en cierta parte es similar a la compuerta or, fue necesario dos compuertas not, dos and y una or, lo que nos permite obtener los inversos de las entradas inicialmente que junto con las and y la not en el caso que sea las entradas doble uno. obtengamos un cero.
