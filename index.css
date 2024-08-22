@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Montserrat, Arial, sans-serif;
     margin: 0;
@@ -118,6 +122,8 @@ section h1 {
 .socials img:hover {
     transform: scale(1.2);
 }
+
+
 
 #practicas article {
     width: 60%;

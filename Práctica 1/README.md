@@ -1,0 +1,17 @@
+# PRÁCTICA 1: BOOLEAN LOGIC
+
+Como proposito de esta práctica será familiarizarse con el ambiente de Nand2Tetris y comprender le funcionamiento de las compuertas lógicas.
+Está práctica es realizda en la carpeta del proyecto 1 de nand2tetris. El punto de partido será la compuerta primitiva NAND, con la cual se hará la construcción de las demás compuertas mostradas a continuación.
+
+## Compuerta NOT
+
+
+
+
+## Referencias
+
+https://drive.google.com/file/d/1MY1buFHo_Wx5DPrKhCNSA2cm5ltwFJzM/view
+
+https://drive.google.com/file/d/1dPj4XNby9iuAs-47U9k3xtYy9hJ-ET0T/view
+
+The Element of Computing Systems, capítulo 1. https://www.nand2tetris.org/_files/ugd/44046b_f2c9e41f0b204a34ab78be0ae4953128.pdf
