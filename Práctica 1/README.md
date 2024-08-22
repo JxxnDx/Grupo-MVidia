@@ -5,10 +5,12 @@ Está práctica es realizada en la carpeta del proyecto 1 de nand2tetris donde s
 
 ## Compuerta NOT
 Para la realización de esta compuerta basto con mantener una entrada de la nand en "true" (1) con lo cual nos permite obtener el contrario de la segunda entrada debido al funcionamiento de la compuerta nand.
+
 ![1](https://github.com/user-attachments/assets/4a8c0106-7183-44f8-abcf-3d87031d1757)
 
 ## Compuerta AND
 Para la realización de esta compuerta fue necesario negar la nand, debido a que esta tiene la lógica inversa de la and, para esto se utilizó la not anteriormente creada.
+
 ![2](https://github.com/user-attachments/assets/138fd9bc-acb6-4ee4-957c-d77e518fdb70)
 
 ## Compuerta OR
