@@ -1,21 +1,30 @@
 # PRÁCTICA 1: BOOLEAN LOGIC
 
 Como proposito de esta práctica será familiarizarse con el ambiente de Nand2Tetris y comprender le funcionamiento de las compuertas lógicas.
-Está práctica es realizda en la carpeta del proyecto 1 de nand2tetris. El punto de partido será la compuerta primitiva NAND, con la cual se hará la construcción de las demás compuertas mostradas a continuación.
+Está práctica es realizada en la carpeta del proyecto 1 de nand2tetris donde se utilizó el software online y de escritorio. El punto de partida será la compuerta NAND, con la cual se hará la construcción de las demás compuertas mostradas a continuación.
 
 ## Compuerta NOT
+Para la realización de esta compuerta basto con mantener una entrada de la nand en "true" (1) con lo cual nos permite obtener el contrario de la segunda entrada debido al funcionamiento de la compuerta nand.
 
-## Compuerta NOT
 ## Compuerta AND
+Para la realización de esta compuerta fue necesario negar la nand, debido a que esta tiene la lógica inversa de la and, para esto se utilizó la not anteriormente creada.
+
 ## Compuerta OR
+Para la realización de esta compuerta se utilizarón tres compuertas nand, donde dos de ellas tienen cada una una entrada en "true" lo que nos permite obtener de cierta manera cero como salida por si los dos input que se manejan 
+en compuertas diferente son "1" y así obtener un cero en las dos entradas de la tercera compuerta nand y esta obtener la salida correspondiente. Por lo cual se obtiene la compuerta or.
+
 ## Compuerta XOR
 ## Compuerta MUX
 ## Compuerta DMUX
 ## Compuerta NOT16
 ## Compuerta AND16
 ## Compuerta OR16
-## Compuerta NOT16
-## Compuerta NOT
+## Compuerta MUX16
+## Compuerta OR8WAY
+## Compuerta MUX4WAY16
+## Compuerta MUX8WAY16
+## Compuerta DMUX4WAY
+## Compuerta DMUX8WAY
 
 
 
