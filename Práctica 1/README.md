@@ -14,9 +14,17 @@ Para la realización de esta compuerta se utilizarón tres compuertas nand, dond
 en compuertas diferente son "1" y así obtener un cero en las dos entradas de la tercera compuerta nand y esta obtener la salida correspondiente. Por lo cual se obtiene la compuerta or.
 
 ## Compuerta XOR
+Para la realización de esta compuerta que en cierta parte es similar a la compuerta or, fue necesario dos compuertas not, dos and y una or, lo que nos permite obtener los inversos de las entradas inicialmente que junto con las and y la not en el caso que sea las entradas doble uno. obtengamos un cero.
+
 ## Compuerta MUX
+Para la realización de esta compuerta también llamada multiplexor que contiene un selector encargado de intercambiar entre los canales, fue necesario dos compuertas and, una not y una or, las que nos permitó recrear la lógica de la compuerta mux.
+
 ## Compuerta DMUX
+Para la realización de esta compuerta también conocida como demultiplexor, la cual funciona de por decirlo así de manera contraría a un multiplexor donde se espera una entrada y varias salias que dependen de un selector. Por lo cual fue necesario utilizar dos and y una not menos debido a que ya no necesitaremos dos selectores si no uno.
+
 ## Compuerta NOT16
+Esta compuerta es similar a la not convencional, lo que difiere es que esta procesa más bits, entendiendose como más entradas, por lo cual no se espera solo un 1 o un 0 sino una cadena de estos, en la que trata cada bit con una compuerta not por separado.
+
 ## Compuerta AND16
 ## Compuerta OR16
 ## Compuerta MUX16
