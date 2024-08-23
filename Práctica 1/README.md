@@ -74,11 +74,11 @@ Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, 
 ![15](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/15.jpeg)
 
 ## Preguntas adicionales
--->¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
+* ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
 
 R/
 
--->¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
+* ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
 
 R/ Algunas herramientas que se asemejan a Nand2Tetris son:
 * Logisim/ Logisim Evolution
@@ -98,3 +98,5 @@ https://drive.google.com/file/d/1dPj4XNby9iuAs-47U9k3xtYy9hJ-ET0T/view
 The Element of Computing Systems, capítulo 1. https://www.nand2tetris.org/_files/ugd/44046b_f2c9e41f0b204a34ab78be0ae4953128.pdf
 
 [Part 1] Unit 0.0/1.8 https://www.youtube.com/watch?v=LqirVc5SlW0&list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI 
+
+http://wiki.sc3.uis.edu.co/images/f/f5/ArchiG01.pdf
