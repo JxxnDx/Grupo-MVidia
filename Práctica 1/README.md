@@ -76,7 +76,7 @@ Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, 
 ## Preguntas adicionales
 * ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
 
-R/Para trabajar con el programa Nand2Tetris tenemos que tener en cuenta varios factores como entender los conceptos básicos de cómo funcionan las compuertas lógicas, la álgebra booleana sobre todo y conocer como funciona el software que puede ser el online o el de escritorio. También debemos valernos del material de apoyo e investigar conceptos desconocidos y lo más importante realizar prácticas.
+R/ Para trabajar con el programa Nand2Tetris tenemos que tener en cuenta varios factores como entender los conceptos básicos de cómo funcionan las compuertas lógicas, la álgebra booleana sobre todo y conocer como funciona el software que puede ser el online o el de escritorio. También debemos valernos del material de apoyo e investigar conceptos desconocidos y lo más importante realizar prácticas.
 
 * ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
 
