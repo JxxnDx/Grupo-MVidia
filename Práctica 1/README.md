@@ -43,10 +43,12 @@ Esta compuerta es similar a la not convencional, lo que difiere es que esta proc
 ## Compuerta AND16
 Para esta compuerta al igual que se hizo en not16, fue necesario varias and las cuales se encargan de "procesar" cada bit.
 
-![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/8.jpeg)
+![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/8.jpeg)
 
 ## Compuerta OR16
 De igual manera que se realizarón las compuertas and16 y not16, se empleo el mismo modelo pero en este caso con las compuertas or anteriormente creada.
+
+![9](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/9.JPG)
 
 ## Compuerta MUX16
 Para el procesamiento de barios bits en este caso en un multiplexor fue necesario asignarle cada bit a cada compuerta mux teniendo en claro que estas tiene dos entradas al igual que las anteriores dos compuertas de 16 bits realizadas.
