@@ -80,7 +80,12 @@ R/
 
 -->¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
 
-R/
+R/ Algunas herramientas que se asemejan a Nand2Tetris son:
+* Logisim/ Logisim Evolution
+* Verilog
+* ⁠Tinkercad circuits 
+* ⁠TinyCPU
+* ⁠PicoCTF
 
 
 
