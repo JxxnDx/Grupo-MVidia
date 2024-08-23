@@ -71,7 +71,14 @@ Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, 
 
 ![15](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/15.jpeg)
 
+## Preguntas adicionales
+-->¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
 
+R/
+
+-->¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
+
+R/
 
 
 
