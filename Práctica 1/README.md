@@ -36,6 +36,9 @@ Para la realización de esta compuerta también conocida como demultiplexor, la 
 ## Compuerta NOT16
 Esta compuerta es similar a la not convencional, lo que difiere es que esta procesa más bits, entendiendose como más entradas, por lo cual no se espera solo un 1 o un 0 sino una cadena de estos, en la que trata cada bit con una compuerta not por separado.
 
+![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/7.jpeg)
+
+
 ## Compuerta AND16
 Para esta compuerta al igual que se hizo en not16, fue necesario varias and las cuales se encargan de "procesar" cada bit.
 
