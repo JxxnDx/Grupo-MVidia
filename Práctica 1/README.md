@@ -53,6 +53,8 @@ De igual manera que se realizarón las compuertas and16 y not16, se empleo el mi
 ## Compuerta MUX16
 Para el procesamiento de barios bits en este caso en un multiplexor fue necesario asignarle cada bit a cada compuerta mux teniendo en claro que estas tiene dos entradas al igual que las anteriores dos compuertas de 16 bits realizadas.
 
+![10](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/10.PNG)
+
 ## Compuerta OR8WAY
 Para la realización de esta compuerta se tiene en cuenta que son varias compuertas or una tras otra, para así lograr tener 8 entradas de un bits similar a las recientes compuertas realizadas, pero con una diferencia en la cual se une la salida de una con la entrada de otra para lograr obtener solo un bit de salida. Por lo que fue necesario siete compuertas or.
 
