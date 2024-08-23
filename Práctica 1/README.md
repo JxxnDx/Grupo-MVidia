@@ -17,6 +17,7 @@ Para la realización de esta compuerta fue necesario negar la nand, debido a que
 Para la realización de esta compuerta se utilizarón tres compuertas nand, donde dos de ellas tienen cada una una entrada en "true" lo que nos permite obtener de cierta manera cero como salida por si los dos input que se manejan 
 en compuertas diferente son "1" y así obtener un cero en las dos entradas de la tercera compuerta nand y esta obtener la salida correspondiente. Por lo cual se obtiene la compuerta or.
 
+![3](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/3.jpeg)
 
 ## Compuerta XOR
 Para la realización de esta compuerta que en cierta parte es similar a la compuerta or, fue necesario dos compuertas not, dos and y una or, lo que nos permite obtener los inversos de las entradas inicialmente que junto con las and y la not en el caso que sea las entradas doble uno. obtengamos un cero.
