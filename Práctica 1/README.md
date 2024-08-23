@@ -56,6 +56,8 @@ Para el procesamiento de barios bits en este caso en un multiplexor fue necesari
 ## Compuerta OR8WAY
 Para la realización de esta compuerta se tiene en cuenta que son varias compuertas or una tras otra, para así lograr tener 8 entradas de un bits similar a las recientes compuertas realizadas, pero con una diferencia en la cual se une la salida de una con la entrada de otra para lograr obtener solo un bit de salida. Por lo que fue necesario siete compuertas or.
 
+![11](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/11.JPG)
+
 ## Compuerta MUX4WAY16
 Esta compuerta es una combinacion de otras compuertas mux, en la cual se espera 4 entradas de 16 bits y luego obtener una salida de 1 bit, para esto fue necesario 3 compuertas mux y una compuerta xor la cual es la encargada de variar el selector de la ultima compuerta mux.
 
