@@ -55,14 +55,22 @@ Para la realización de esta compuerta se tiene en cuenta que son varias compuer
 ## Compuerta MUX4WAY16
 Esta compuerta es una combinacion de otras compuertas mux, en la cual se espera 4 entradas de 16 bits y luego obtener una salida de 1 bit, para esto fue necesario 3 compuertas mux y una compuerta xor la cual es la encargada de variar el selector de la ultima compuerta mux.
 
+![12](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/12.jpeg)
+
+
 ## Compuerta MUX8WAY16
 Para esta compuerta al similar a la anterior, se espera la salida de 1 bit pero con ocho entradas de 16 bits, por lo cual fue necesario utilizar dos mux4way16 que se realizó anteriormente y una compuerta mux16 ya que maneja también 16 bits, así evitando una gran cantidad de compuertas.
+
+![13](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/13.jpeg)
 
 ## Compuerta DMUX4WAY
 Para la realización de este demultiplexor fue necesario utilizar ocho compuertas and y dos not, pero ya no para obtener 4 entradas sino 4 salidas, ya que una caracteristica de estas compuertas es que reciben una entrada y dependiendo del selector se elige entre una de sus salidas.
 
 ## Compuerta DMUX8WAY
 Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, debido a que utilizar dos de esas compuertas podemos obtener las 8 salidas requeridas, además se utilizo una compuerta dmux la cual se encargara del input principal.
+
+![15](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/15.jpeg)
+
 
 
 
