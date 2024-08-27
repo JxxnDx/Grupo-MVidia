@@ -43,16 +43,22 @@ Esta compuerta es similar a la not convencional, lo que difiere es que esta proc
 ## Compuerta AND16
 Para esta compuerta al igual que se hizo en not16, fue necesario varias and las cuales se encargan de "procesar" cada bit.
 
-![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/8.jpeg)
+![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/8.jpeg)
 
 ## Compuerta OR16
 De igual manera que se realizarón las compuertas and16 y not16, se empleo el mismo modelo pero en este caso con las compuertas or anteriormente creada.
 
+![9](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/9.JPG)
+
 ## Compuerta MUX16
 Para el procesamiento de barios bits en este caso en un multiplexor fue necesario asignarle cada bit a cada compuerta mux teniendo en claro que estas tiene dos entradas al igual que las anteriores dos compuertas de 16 bits realizadas.
 
+![10](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/10.png)
+
 ## Compuerta OR8WAY
 Para la realización de esta compuerta se tiene en cuenta que son varias compuertas or una tras otra, para así lograr tener 8 entradas de un bits similar a las recientes compuertas realizadas, pero con una diferencia en la cual se une la salida de una con la entrada de otra para lograr obtener solo un bit de salida. Por lo que fue necesario siete compuertas or.
+
+![11](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/11.JPG)
 
 ## Compuerta MUX4WAY16
 Esta compuerta es una combinacion de otras compuertas mux, en la cual se espera 4 entradas de 16 bits y luego obtener una salida de 1 bit, para esto fue necesario 3 compuertas mux y una compuerta xor la cual es la encargada de variar el selector de la ultima compuerta mux.
@@ -67,6 +73,8 @@ Para esta compuerta al similar a la anterior, se espera la salida de 1 bit pero 
 
 ## Compuerta DMUX4WAY
 Para la realización de este demultiplexor fue necesario utilizar ocho compuertas and y dos not, pero ya no para obtener 4 entradas sino 4 salidas, ya que una caracteristica de estas compuertas es que reciben una entrada y dependiendo del selector se elige entre una de sus salidas.
+
+![14](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%201/img2/14.JPG)
 
 ## Compuerta DMUX8WAY
 Para esta compuerta fue de gran ayuda utilizar la anterior compuerta realizada, debido a que utilizar dos de esas compuertas podemos obtener las 8 salidas requeridas, además se utilizo una compuerta dmux la cual se encargara del input principal.
