@@ -5,8 +5,11 @@ En este repositorio se subirán las prácticas realizadas en el transcurso del c
 ## Integrantes
 
 Andrea Juliana Portilla Barrera - 2211852
+
 Ricardo Andrés Pérez Porras - 2220078
+
 Sofia Pinilla Díaz - 2215607
+
 Juan David Pallares Pallares - 2220079
 
 Página Web:
