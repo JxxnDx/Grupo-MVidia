@@ -47,12 +47,39 @@ header ul li a {
     font-weight: bold;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 header ul li a:hover {
     background-color: #333;
     color: white;
     border-radius: 1rem;
+}
+
+#menu-repo {
+    padding: 0 3rem;
+    padding-top: 1.5rem;
+}
+
+#menu-repo a {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-repo svg {
+    padding: 0 1rem;
+    transition: transform 0.3s ease, fill 0.3s;
+    fill: #fff;
+    stroke: #fff;
+}
+
+#menu-repo svg:hover {
+    transform: rotate(360deg);
+    fill: rgb(156, 3, 138);
+    stroke: rgb(156, 3, 138);
 }
 
 #bienvenida {
