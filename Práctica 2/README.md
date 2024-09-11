@@ -1,4 +1,4 @@
-# PRÁCRICA 2: BOOLEAN ARITHMETIC AND MEMORY
+# PRÁCTICA 2: BOOLEAN ARITHMETIC AND MEMORY
 
 En esta práctica se realizan los proyectos 2 y 3 de Nand2Tetris, donde se tratan aspectos importantes relacionados con la lógica aritmética y la memoria o lógica secuencial.   
 
