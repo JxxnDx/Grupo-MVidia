@@ -1,6 +1,6 @@
 # PRÁCTICA 1: BOOLEAN LOGIC
 
-Como proposito de esta práctica será familiarizarse con el ambiente de Nand2Tetris y comprender le funcionamiento de las compuertas lógicas.
+Como proposito de esta práctica será familiarizarse con el ambiente de Nand2Tetris y comprender el funcionamiento de las compuertas lógicas.
 Está práctica es realizada en la carpeta del proyecto 1 de nand2tetris donde se utilizó el software online y de escritorio. El punto de partida será la compuerta NAND, con la cual se hará la construcción de las demás compuertas mostradas a continuación.
 
 ## Compuerta NOT
