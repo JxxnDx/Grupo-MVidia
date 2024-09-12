@@ -47,45 +47,45 @@ Para la realización de este chip, fue necesario un DFF y una multiplexor,
 los cuales nos permiten almacenar previamente un bit, donde la entrada load
 es crucial para aquello. La construcción de este chip en parte fue sencilla debido a que nos proporcionan el DFF (que se puede construir con compuertas AND) y en el video de apoyo fue descrita la lógica.
 
-![1](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/BIT.png)
+{IMAGEN}
 
 ### REGISTER
 Para la realización de este chip fue esencial comprender como este está compuesto, si revisamos la teoría nos damos cuenta que está formado por varios bits, por lo cual, fue necesario utilizar el chip bit (construido anteriormente) para cada bit de entrada. Este chip se puede asemejar a las
 muñecas rusas, donde una tiene en el interior otra pero en un tamaño menor, a medida que avancemos en los siguientes chips le encontraremos más sentido a esto.
 
-![2](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/REGISTER.png)
+{IMAGEN}
 
 ### RAM8
 Para la realización de este chip fue clave en prestar atención en los consejos dados en la teoría, donde nos recomiendan el uso de chips anteriormente construidos como el MUX y DMUX. Si observamos con detenimiento el funcionamiento de este chip a construir, nos damos cuenta que esta conformado por varios registros en los cuales se almacena y se solicita cierta entrada, por lo cual para el manejo de almacenamiento y solicitudes fue necesario utilizar un DMUX8WAY el cual actúa como load de cada registro para elegir en quién guardar la información, por eso la entrada (in) va directa a cada chip registro debido a que no se tiene un DMUX8EAY16 el cual nos permita guardar directamente 16 bits en cada registro. Ahora bien para la solicitudes se utilizó un MUX8WAY16 el cual sus entradas son las salidas de cada registro, permitiendo obtener información dependiendo de la dirección dada.
 
-![3](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/ram8.png)
+{IMAGEN}
 
 ### RAM64
 Para la realización de este chip, en gran parte se utiliza la misma lógica que el anterior chip construido por dos razones. La primera razón es debido que el funcionamiento de almacenar y de obtener información es igual, solo que en vez de registros se utiliza el chip RAM8, el cual es la segunda razón de utilizar la misma lógica debido a que varios chips de este forman uno con mayor tamaño, donde se retoma la analogía de las muñecas rusas. Por lo tanto fue necesario utilizar 8 chips RAM8, una DMUX8WAY y un MUX8WAY16.
 
-![4](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM64.png)
+{IMAGEN}
 
 ### RAM 512
 Este chip implementa una memoria de 512 palabras, donde cada palabra tiene 16 bits. Se construye con 8 módulos de RAM 64 y un multiplexor de 8 bits. Esto lo que permite es seleccionar cuál de los módulos de 64 palabras está siendo accedido para la lectura como escritura. Funciona de la siguiente manera: La entrada de datos se conecta a los módulos RAM64, y la selección del módulo específico se realiza usando las tres bits superiores de la dirección. Estos tres bits superiores de la dirección seleccionan cuál de los 8 módulos RAM64 se utilizará. Si se utiliza los seis bits inferiores de la dirección seleccionan una palabra específica dentro del módulo RAM64. Dependiendo de la señal de control de escritura (load), los datos se escriben en la dirección seleccionada o se leen desde ella.
 
-![5](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM512.png)
+{IMAGEN}
 
 ### RAM 4K
 
 Este chip es de memoria de 4096 palabras, con 16 bits por palabra. Este construye a partir de 8 módulos de RAM 512 y un multiplexor de 8 bits. Esto lo que permite es seleccionar cuál de los módulos de 512 palabras está siendo accedido para la lectura como escritura. Funciona de la siguiente manera: La entrada de datos se conecta a los módulos RAM512, y los bits más significativos de la dirección determinan el módulo seleccionado. Si se utilizan tres bits superiores de la dirección seleccionan cuál de los 8 módulos RAM512 se utilizará.
 Si solo se usan los nueve bits inferiores de la dirección especifican la palabra exacta dentro del módulo RAM512. La señal de control de escritura (load) determina si se escriben los datos en la dirección seleccionada o si se leen los datos.
 
-![6](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM4K.png)
+{IMAGEN}
 
 ### RAM16K
 Este chip presenta una construcción ligeramente diferente en comparación con los otros chips de RAM que hemos diseñado. Sin embargo, seguimos utilizando el chip anterior junto con el multiplexor y el demultiplexor. En este caso, empleamos los componentes Dmux4way y Mux4way16, ya que la Ram16k está compuesta por cuatro módulos Ram4k. Así, el selector tanto del Dmux4way como del Mux4way ahora solo considera los dos últimos bits de la dirección (address), mientras que los 12 bits restantes se dirigen a la Ram4k.
 
-![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM16K.jpg)
+{IMAGEN}
 
 ### PC (Program Counter)
 El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] representa la dirección actual almacenada en el contador de programa.
 
-![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/PC.jpg)
+{IMAGEN}
 
 ## Preguntas adicionales:
 
@@ -93,7 +93,7 @@ El chip PC es un contador de programa encargado de almacenar y gestionar las dir
 
 El objetivo para realizar el curso y los proyectos de Nand2Tetris, es construir una computadora completa utilizando circuitos lógicos básicos hasta ir creando circuitos más complejos esto quiere decir que vamos a utilizar sistemas operativos y lenguajes de programación, esto nos ayuda a seguí aprendiendo acerca como funciona realmente una computadora desde cero.  En cada proyecto tiene uno conjuntos de actividades diferentes por ejemplo llevamos dos actividades de proyecto para solucionar lo hecho de manera diferente lo que hemos hecho es: 
 
-Para la práctica 1 el objetivo como grupo es construir las compuertas lógicas básicas como NOT, AND, OR y después se utiliza otros componentes como la compuerta lógica NAND, está es una computadora importante ya que es fundamental para el curso de NAND2TETRI. Para poder desarrollar este proyecto necesitamos conocer y saber utilizar el lenguaje de programación HDL(Hardware Descriptivo) para poder implementar las compuertas lógicas esto se hace en el simulador para saber si está funcionando adecuadamente según las especificaciones que nos dicen en la descripción de la práctica 1. 
+Para la práctica 1 el objetivo como grupo es construir las compuertas lógicas básicas como NOT, AND, OR y después se utiliza otros componentes como la compuerta lógica NAND, está es una computadora importante ya que es fundamental para el curso de NAND2TETRIS. Para poder desarrollar este proyecto necesitamos conocer y saber utilizar el lenguaje de programación HDL(Hardware Descriptivo) para poder implementar las compuertas lógicas esto se hace en el simulador para saber si está funcionando adecuadamente según las especificaciones que nos dicen en la descripción de la práctica 1. 
 
 Para la práctica 2 está tiene como objetivo es desarrollar circuitos un poco más complejos que en la práctica anterior  ya que en esta se utiliza multiplexores, desmultiplexores, sumadores y unidad aritmético lógico pero esto también usa las compuertas realizadas anteriormente en la práctica 1. Acá se hace es combinar las puertas lógicas básicas para ir creando circuitos combinatorios.  
 
