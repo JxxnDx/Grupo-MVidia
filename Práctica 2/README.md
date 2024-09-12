@@ -83,7 +83,7 @@ Este chip presenta una construcción ligeramente diferente en comparación con l
 ![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM16K.jpg)
 
 ### PC (Program Counter)
-El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] representa la dirección actual almacenada en el contador de programa.
+El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] es la que representa la dirección actual almacenada en el contador de programa.
 
 ![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/PC.jpg)
 
