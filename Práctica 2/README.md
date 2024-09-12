@@ -70,7 +70,7 @@ Este chip implementa una memoria de 512 palabras, donde cada palabra tiene 16 bi
 
 {IMAGEN}
 
-RAM 4K
+### RAM 4K
 
 Este chip es de memoria de 4096 palabras, con 16 bits por palabra. Este construye a partir de 8 módulos de RAM 512 y un multiplexor de 8 bits. Esto lo que permite es seleccionar cuál de los módulos de 512 palabras está siendo accedido para la lectura como escritura. Funciona de la siguiente manera: La entrada de datos se conecta a los módulos RAM512, y los bits más significativos de la dirección determinan el módulo seleccionado. Si se utilizan tres bits superiores de la dirección seleccionan cuál de los 8 módulos RAM512 se utilizará.
 Si solo se usan los nueve bits inferiores de la dirección especifican la palabra exacta dentro del módulo RAM512. La señal de control de escritura (load) determina si se escriben los datos en la dirección seleccionada o si se leen los datos.
@@ -88,7 +88,9 @@ El chip PC es un contador de programa encargado de almacenar y gestionar las dir
 {IMAGEN}
 
 ## Preguntas adicionales:
-1. ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
+
+### 1. ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
+
 El objetivo para realizar el curso y los proyectos de Nand2Tetris, es construir una computadora completa utilizando circuitos lógicos básicos hasta ir creando circuitos más complejos esto quiere decir que vamos a utilizar sistemas operativos y lenguajes de programación, esto nos ayuda a seguí aprendiendo acerca como funciona realmente una computadora desde cero.  En cada proyecto tiene uno conjuntos de actividades diferentes por ejemplo llevamos dos actividades de proyecto para solucionar lo hecho de manera diferente lo que hemos hecho es: 
 
 Para la práctica 1 el objetivo como grupo es construir las compuertas lógicas básicas como NOT, AND, OR y después se utiliza otros componentes como la compuerta lógica NAND, está es una computadora importante ya que es fundamental para el curso de NAND2TETRI. Para poder desarrollar este proyecto necesitamos conocer y saber utilizar el lenguaje de programación HDL(Hardware Descriptivo) para poder implementar las compuertas lógicas esto se hace en el simulador para saber si está funcionando adecuadamente según las especificaciones que nos dicen en la descripción de la práctica 1. 
@@ -99,7 +101,8 @@ Ahora bien, para el proyecto 3 el objetivo es construir unidades de memoria capa
 
 Para las tres prácticas que hemos desarrollado hacemos lo mismo primero es leer bien que nos piden después es realizar el codigo de programación (HDL) para saber si la salida de cada circuito integrado funciona correctamente. Después analizamos las entradas y salida que salen del codigos y  para finalizar creamos los diagramas de cada circuito integrado. 
 
-2. Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
+### 2. Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
+
 La lógica aritmética, o combinacional, realiza operaciones basadas únicamente en las entradas actuales, sin depender de estados anteriores ni tener memoria. Ejemplos de esta lógica son los sumadores y multiplexores, usados en operaciones matemáticas. En contraste, la lógica secuencial depende tanto de las entradas actuales como de los estados previos, gracias a la memoria integrada. Estos circuitos, como los flip-flops y contadores, operan de manera síncrona, coordinados por un reloj, y son esenciales para el seguimiento de estados y almacenamiento de datos en sistemas más complejos.
 
 ## BONUS
