@@ -80,12 +80,12 @@ Si solo se usan los nueve bits inferiores de la dirección especifican la palabr
 ### RAM16K
 Este chip presenta una construcción ligeramente diferente en comparación con los otros chips de RAM que hemos diseñado. Sin embargo, seguimos utilizando el chip anterior junto con el multiplexor y el demultiplexor. En este caso, empleamos los componentes Dmux4way y Mux4way16, ya que la Ram16k está compuesta por cuatro módulos Ram4k. Así, el selector tanto del Dmux4way como del Mux4way ahora solo considera los dos últimos bits de la dirección (address), mientras que los 12 bits restantes se dirigen a la Ram4k.
 
-![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM16K.png)
+![7](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/RAM16K.jpg)
 
 ### PC (Program Counter)
 El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] representa la dirección actual almacenada en el contador de programa.
 
-![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/PC.png)
+![8](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%202/Proyecto03/IMG/PC.jpg)
 
 ## Preguntas adicionales:
 
