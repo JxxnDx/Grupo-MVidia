@@ -83,7 +83,7 @@ Este chip presenta una construcción ligeramente diferente en comparación con l
 {IMAGEN}
 
 ### PC (Program Counter)
-El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] representa la dirección actual almacenada en el contador de programa.
+El chip PC es un contador de programa encargado de almacenar y gestionar las direcciones de las instrucciones. Puede incrementar la dirección actual, cargar una nueva dirección y restablecerse a cero, dependiendo de las señales de control recibidas: inc (incremento), load (carga) y reset (reinicio). La salida out[16] es la que representa la dirección actual almacenada en el contador de programa.
 
 {IMAGEN}
 
