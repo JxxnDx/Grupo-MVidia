@@ -129,14 +129,18 @@ header ul li a:hover {
 }
 
 section {
-    margin: 6rem;
+    margin: 2rem 6rem;
     height: auto;
 }
 
 section h1 {
     font-size: 2.5rem;
-    margin: 3rem 6rem;  
+    margin: 1rem 6rem;  
     padding: 2rem;
+}
+
+#integrantes {
+    margin: 6rem;
 }
 
 #integrantes article {
@@ -184,8 +188,6 @@ section h1 {
     transform: scale(1.2);
 }
 
-
-
 #practicas article {
     width: 60%;
     margin: 0 auto;
@@ -202,17 +204,25 @@ section h1 {
 #practicas a{
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
     border: 1px solid;
     padding: 10px;
-    border-radius: 1rem;
-    transition: background-color 0.3s;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, border-radius 0.3s;
     background-color: rgba(65, 64, 64, 0.5);
     
 }
 
 #practicas a:hover{         
     background-color: rgb(0, 0, 0, 0.5);
-    color:rgb(156, 3, 138);
+    border-radius: 1rem;
+}
+
+.infoLinks {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
