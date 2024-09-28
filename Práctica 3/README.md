@@ -15,9 +15,11 @@ La función de este programa era ilustrar cómo es el manejo de bajo nivel de la
 
 Pantalla negra mientras se presiona una tecla:
 
+![black](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/fill.png)
 
 Pantalla blanca cuando no se presiona una tecla:
 
+![white](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/fillW.png)
 
 Para esto el programa ejecuta un ciclo infinto para detectar cuando una tecla es presionada y escribir "negro" en cada pixel de la pantalla. Cuando la tecla deja de ser presiionada la pantalla se limpiará excribiendo "blanco" o "vacío".
 
