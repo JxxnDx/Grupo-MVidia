@@ -1,6 +1,6 @@
 ## PROYECTO 4
 
-En este proyecto se propone programar por medio del lenguaje ensamblador, dos programas, donde el primero realiza una multiplicación de dos números, y el segundo programa interactúa con el teclado.}
+En este proyecto se propone programar por medio del lenguaje ensamblador, dos programas, donde el primero realiza una multiplicación de dos números, y el segundo programa interactúa con el teclado.
 
 # Multiplicación de dos números
 
@@ -8,7 +8,7 @@ Para el desarrollo de este programa se realizó primero un pseudocódigo con la 
 
 La estructura del código establece inicialmente el valor clave el cual se va a repetir por el segundo valor ingresado, después verifica que estos valores no sean igual a cero debido a que obtendríamos cero inmediatamente, si esto no ocurre se procede con el bucle que contiene la sumatoria. Se tuvieron en cuenta los siguientes 
 
-{imagen}
+![multi](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/img4_1.jpg)
 
 # Interacción pantalla
 
@@ -30,13 +30,13 @@ En este proyecto, la CPU se construye a partir de puertas lógicas básicas como
 
 La CPU se encarga de ejecutar las instrucciones almacenadas en la memoria de forma secuencial, recuperándolas, decodificándolas y llevándolas a cabo. Además, gestiona el flujo de datos entre la memoria y otros dispositivos de entrada/salida, y maneja el procesamiento de interrupciones y excepciones.
 
-{Image}
+![cpu](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/CPU.PNG)
 
 # COMPUTER
 
 La unidad de hardware completa que se construye en el proyecto Nand2tetris es el resultado de integrar todos los componentes individuales, como la CPU, la memoria, y los dispositivos de entrada/salida, entre otros. Este sistema final se implementa mediante el archivo Computer.hdl, que juega un papel crucial al definir la estructura y el comportamiento de la computadora en su totalidad. Es en este archivo donde se especifica cómo interactúan todos los componentes, logrando una máquina funcional capaz de ejecutar programas desde el nivel más bajo del hardware.
 
-{Image}
+![pc](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/COMPUTER.PNG)
 
 ## Preguntas adicionales:
 # 1. ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
