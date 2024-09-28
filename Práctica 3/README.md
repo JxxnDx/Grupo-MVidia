@@ -11,8 +11,15 @@ La estructura del código establece inicialmente el valor clave el cual se va a 
 ![multi](https://github.com/JxxnDx/Grupo-MVidia/blob/main/Pr%C3%A1ctica%203/img/img4_1.jpg)
 
 ## Interacción pantalla
+La función de este programa era ilustrar cómo es el manejo de bajo nivel de la la interacción entre la pantalla y el teclado. Se trabaja como un bucle infinito, cuando una tecla es presionada la pantalla automáticamente se pone de color negro, y no cambia nuevamente a color blanco hasta que se suelta la tecla. 
 
-.....
+Pantalla negra mientras se presiona una tecla:
+
+
+Pantalla blanca cuando no se presiona una tecla:
+
+
+Para esto el programa ejecuta un ciclo infinto para detectar cuando una tecla es presionada y escribir "negro" en cada pixel de la pantalla. Cuando la tecla deja de ser presiionada la pantalla se limpiará excribiendo "blanco" o "vacío".
 
 # PROYECTO 5
 
@@ -70,6 +77,8 @@ Yang Su. (2022, March 26). Nand2Tetris Project 05 (Part 1) Data Memory and Memor
 Computer Architecture: A Quantitative Approach 6th Edition : Free Download, Borrow, and Streaming : Internet Archive. (2019). Internet Archive. https://archive.org/details/computerarchitectureaquantitativeapproach6thedition
 
 File Download Computer Architecture, Sixth Edition: A Quantitative Approach PDF by John L. Hennessy, David A. Patterson. (2017). Pdfdrive.to. https://www.pdfdrive.to/filedownload/computer-architecture-sixth-edition-a-quantitative-approach-pdf
+
+Nand2Tetris proyectos 4 y 5: Programación en lenguaje de maquina y arquitectura informática. https://www.youtube.com/watch?v=oDrLvsnxIwA
 
 https://coderprog.com/computer-architecture-quantitative-approach-6th/
 
