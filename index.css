@@ -220,7 +220,7 @@ section h1 {
 
 .infoLinks {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
