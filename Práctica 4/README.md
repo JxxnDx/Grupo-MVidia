@@ -24,6 +24,12 @@ asignaciones normales --> tabla
 
 @i @sum @variable , asignar un numero a partir de 16, y ir aumentando --> VARIBALES 
 
+Lógica la cual es desarrollada en el siguiente código, donde primero revisa las lineas con '@' y sus diferentes categorias
+![4](image4.png)
+
+Ya por último, se codifican las instruciones de asignación
+![5](image5.png)
+
 # Preguntas
 - **Teniendo en cuenta las características del ensamblador, ¿Cuál es la principal limitante que observan? Justifique su respuesta.**
 
