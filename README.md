@@ -1,6 +1,6 @@
 # GRUPO MVIDIA [Equipo M] - ARQUITECTURA DE COMPUTADORES
 
-En este repositorio se subirán las prácticas realizadas en el transcurso del curso Arquitectura de Computadores (E2) del equipo M, a su vez, se encontrará la información de los integrantes y su respectiva página web.
+En este repositorio se subirán las prácticas realizadas en el transcurso del curso Arquitectura de Computadores (E2) del equipo M de la Universidad Induatrial de Santander, a su vez, se encontrará la información de los integrantes y su respectiva página web.
 
 ## Integrantes
 
